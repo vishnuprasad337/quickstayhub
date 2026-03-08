@@ -9,7 +9,7 @@ urlpatterns=[
     
     path('user', user, name='user'),
     path('hotel/', hotel, name='hotel'),
-    path('hotel/login/', hotel_login_view, name='hotel_login'),
+    path('hotel/login/', hotel_login_view, name='hotels_login'),
     path('hotel/list/', hotel_list_view, name='hotel_list'),
     path('hotel/<int:pk>/rooms/', hotel_rooms_view, name='hotel_rooms'),
     path('hotel/login/', hotel_login_view, name='hotel_login'),
